@@ -1,0 +1,65 @@
+nav h1:hover{
+    transition: all ease 0.5s 0s;
+    font-size: 35px;
+    transform: scale(2) rotate(360deg);
+    cursor: pointer;
+    transition-delay: 0.1s;
+    color: green
+}
+body{
+    background-color:rgb(0, 50, 20);
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    animation-name: animação;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;  
+    text-decoration: none;
+    transition: all ease 0.5s 0s;
+    font-size: 20px;
+}
+@keyframes animação{
+    0%{
+        color: rgb(0, 50, 20);
+    }
+
+    50%{
+        color: rgb(0, 165, 66);
+    }
+    
+    100%{
+        color: rgb(0, 233, 93);
+    }
+}
+ul {
+    flex-direction: row; 
+    color: rgb(0, 50, 20);
+    text-align: justify;
+}
+nav{
+    text-align: center;
+    font-family: cursive; 
+}
+li{
+    display: inline-block;
+    align-items: center;
+    width: 309px;
+    text-align: center;
+}
+.fotos{
+    width: 500px;
+    height: 350px;
+}
+.link:link{
+    color: blue;
+}
+.link:visited{
+    color: pink;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
